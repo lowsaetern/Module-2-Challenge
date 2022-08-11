@@ -12,4 +12,5 @@ I was able to put in two live pages in my work section where when clicked, it wo
 <br>
 Below I have attached a screenshot of my portfolio as well as a link to it as well.
 <br>
-
+https://lowsaetern.github.io/Module-2-Challenge/
+<img width="1434" alt="Screen Shot 2022-08-11 at 3 43 01 PM" src="https://user-images.githubusercontent.com/107945716/184247636-9d7cb9fe-5af1-401a-86cc-4c7bc0ed5017.png">
