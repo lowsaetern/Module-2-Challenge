@@ -8,17 +8,17 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 a {
-    color: var(--secondary-color);
+    color: black;
 }
-.top-left {
+.top-left-corner {
     position: absolute;
     top:8px;
     left:16px;
     background: none;
-    text-shadow: 2 px px #919390;
+    text-shadow: 2 px px #9fa8a3;
     font-weight: bold;
 }
-.my-work-title {
+.other-sections-title {
     text-align: center;
     font-size: 32px;
     color: var(--secondary-color);
@@ -107,3 +107,150 @@ header nav ul li a:hover {
     color: var(--primary-color);
 }
 /* About Me End */
+
+/* My Work */
+.run-buddy {
+    position: relative;
+    color: black;
+    width: 65%;
+    margin: 5px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.run-buddy img {
+    width: 100%;
+    border-radius: 5%;
+}
+.run-buddy img a {
+    background: transparent;
+}
+.other-work {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.other-work-imgs {
+    position: relative;
+    color: black;
+    margin: 20px;
+    flex: 1;
+}
+.other-work-imgs img {
+    width: 100%;
+    border-radius: 10%;
+}
+/*About Me End */
+
+/*Contact */
+#contact-info {
+    background-color: var(--secondary-color);
+    width: 100%;
+    border: black solid 6px;
+}
+#contact-info h2 {
+    color: whitesmoke;
+    background-color: var(--tertiary-color);
+    margin-bottom: auto;
+    margin-top: auto;
+}
+#contact-info a {
+    background-color: var(--tertiary-color);
+}
+#contact-info address {
+    padding-bottom: 10px;
+    padding-top: 0;
+    margin-top: 0;
+}
+#contact-info address {
+    background-color: var(--secondary-color);
+    text-align: center;
+}
+#contact-info address a {
+    background-color: var(--secondary-color);
+}
+/* Contact End */
+
+/* Footer */
+.footer {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    text-align: center;
+}
+/*Footer End */
+
+/* MEDIA QUERY FOR 980PX BREAKPOINT */
+@media screen and (max-width: 980px) {
+    header nav ul li a {
+        font-size: 24px;
+    }
+    
+    #about-me h2 {
+        margin-top: 0;
+    }
+
+    #contact-info {
+        font-size: 24px;
+    }
+}
+/* END 980PX MEDIA QUERY */
+
+/* MEDIA QUERY FOR 768PX BREAKPOINT */
+@media screen and (max-width: 768px) {
+    #profile-img {
+        width: 30%;
+    }
+
+    #contact-info {
+        font-size: 18px;
+    }
+}
+/* END 768PX MEDIA QUERY */
+
+/*  MEDIA QUERY FOR 575PX BREAKPOINT */
+@media screen and (max-width: 575px) {
+    .lower-title {
+        font-size: 24px;
+    }
+
+    .top-left {
+        font-size: 12px;
+    }
+    
+    header {
+        margin-bottom: 10px;
+        padding: 10px;
+    }
+    
+    header h1 {
+        font-size: 30px;
+    }
+
+    header nav ul li a {
+        font-size: 16px;
+        padding: 10px 15px;
+    }
+    
+    #profile-img {
+        margin-top: 30px;
+    }
+
+    #about-me h1 {
+        margin-bottom: 0;
+    }
+    
+    #about-me p {
+        font-size: 14px;
+    }
+
+    #contact-info {
+        font-size: 14px;
+    }
+
+    footer {
+        font-size: 14px;
+    }
+}
+/* END 575PX MEDIA QUERY */
