@@ -1,0 +1,25 @@
+:root {
+    --primary-color: #e3e0cf;
+    --secondary-color: #9fa8a3;
+    --tertiary-color: #c5d5cb;
+}
+*{
+    background: var(--primary-color);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a {
+    color: var(--secondary-color);
+}
+.top-left {
+    position: absolute;
+    top:8px;
+    left:16px;
+    background: none;
+    text-shadow: 2 px px #919390;
+    font-weight: bold;
+}
+.my-work-title {
+    text-align: center;
+    font-size: 32px;
+    color: var(--secondary-color);
+}
