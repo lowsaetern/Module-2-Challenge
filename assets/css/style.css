@@ -23,3 +23,50 @@ a {
     font-size: 32px;
     color: var(--secondary-color);
 }
+/* Header Style */
+header {
+    background-color: var(--primary-color);
+    padding: 20px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+header h1 {
+    font-weight: bold;
+    font-size: 48px;
+    margin: 0;
+    color: var(--tertiary-color);
+}
+header h1 a {
+    text-decoration: none;
+}
+header h1 a:hover {
+    text-decoration: underline;
+}
+header nav {
+    margin: 8px 0;
+}
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+header nav ul li a {
+    padding: 15px 20px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-decoration: none;
+}
+header nav ul li a:hover {
+    background: var(--secondary-color);
+    color: var(--tertiary-color);
+    border-radius: 15px;
+    text-shadow: none;
+}
+/* Header end */
