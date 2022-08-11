@@ -127,6 +127,9 @@ header nav ul li a:hover {
 .run-buddy img a {
     background: transparent;
 }
+.run-buddy a {
+    color: black;
+}
 .other-work {
     width: 100%;
     margin: 0 auto;
@@ -143,6 +146,9 @@ header nav ul li a:hover {
 .other-work-imgs img {
     width: 100%;
     border-radius: 5%;
+}
+.other-work-imgs a {
+    color: black;
 }
 /*About Me End */
 
