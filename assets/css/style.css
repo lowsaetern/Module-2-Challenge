@@ -8,7 +8,7 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 a {
-    color: black;
+    color: var(--secondary-color);
 }
 .top-left-corner {
     position: absolute;
@@ -80,35 +80,36 @@ header nav ul li a:hover {
     flex-wrap: left;
     flex-wrap: wrap;
     align-items: flex-start;
-    background-color: var(--secondary-color);
-    border: var(--tertiary-color) solid 3px;
+    background-color: whitesmoke;
+    border: var(--secondary-color) solid 3px;
 }
 #profile-img {
     width: 20%;
     margin: 3.5%;
-    border-radius: 15%;
+    border-radius: 5%;
 }
 #about-me article {
     width: 55%;
     text-align: left;
     margin: 3.5%;
     line-height: 1.2;
-    background-color: var(--secondary-color);
+    background-color: whitesmoke;
 }
 #about-me h2 {
-    background-color: var(--secondary-color);
+    background-color: whitesmoke;
     font-style: italic;
-    color: var(--tertiary-color);
+    color: var(--secondary-color);
     margin-top: 40px;
 }
 #about-me p {
-    background-color: var(--secondary-color);
+    background-color: whitesmoke;
     font-size: 20px;
-    color: var(--primary-color);
+    color: var(--secondary-color);
 }
 /* About Me End */
 
 /* My Work */
+
 .run-buddy {
     position: relative;
     color: black;
@@ -140,7 +141,7 @@ header nav ul li a:hover {
 }
 .other-work-imgs img {
     width: 100%;
-    border-radius: 10%;
+    border-radius: 5%;
 }
 /*About Me End */
 
@@ -148,7 +149,7 @@ header nav ul li a:hover {
 #contact-info {
     background-color: var(--secondary-color);
     width: 100%;
-    border: black solid 6px;
+    border: var(--secondary-color) solid 6px;
 }
 #contact-info h2 {
     color: whitesmoke;
@@ -165,11 +166,13 @@ header nav ul li a:hover {
     margin-top: 0;
 }
 #contact-info address {
-    background-color: var(--secondary-color);
+    background-color: whitesmoke;
     text-align: center;
+    color: var(--secondary-color);
 }
 #contact-info address a {
-    background-color: var(--secondary-color);
+    background-color: whitesmoke;
+    color: var(--secondary-color);
 }
 /* Contact End */
 
