@@ -2,6 +2,7 @@
     --primary-color: #e3e0cf;
     --secondary-color: #9fa8a3;
     --tertiary-color: #c5d5cb;
+    --quaternary-color: #f5f5f5;
 }
 *{
     background: var(--primary-color);
@@ -80,7 +81,7 @@ header nav ul li a:hover {
     flex-wrap: left;
     flex-wrap: wrap;
     align-items: flex-start;
-    background-color: whitesmoke;
+    background-color: var(--quaternary-color);
     border: var(--secondary-color) solid 3px;
 }
 #profile-img {
@@ -93,16 +94,16 @@ header nav ul li a:hover {
     text-align: left;
     margin: 3.5%;
     line-height: 1.2;
-    background-color: whitesmoke;
+    background-color: var(--quaternary-color);
 }
 #about-me h2 {
-    background-color: whitesmoke;
+    background-color: var(--quaternary-color);
     font-style: italic;
     color: var(--secondary-color);
     margin-top: 40px;
 }
 #about-me p {
-    background-color: whitesmoke;
+    background-color: var(--quaternary-color);
     font-size: 20px;
     color: var(--secondary-color);
 }
@@ -152,7 +153,7 @@ header nav ul li a:hover {
     border: var(--secondary-color) solid 6px;
 }
 #contact-info h2 {
-    color: whitesmoke;
+    color: var(--quaternary-color);
     background-color: var(--tertiary-color);
     margin-bottom: auto;
     margin-top: auto;
@@ -166,12 +167,12 @@ header nav ul li a:hover {
     margin-top: 0;
 }
 #contact-info address {
-    background-color: whitesmoke;
+    background-color: var(--quaternary-color);
     text-align: center;
     color: var(--secondary-color);
 }
 #contact-info address a {
-    background-color: whitesmoke;
+    background-color: var(--quaternary-color);
     color: var(--secondary-color);
 }
 /* Contact End */
