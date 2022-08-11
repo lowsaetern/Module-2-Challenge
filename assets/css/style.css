@@ -70,3 +70,40 @@ header nav ul li a:hover {
     text-shadow: none;
 }
 /* Header end */
+
+/* About me */
+#about-me {
+    margin:15 px;
+    padding: 3px;
+    display: flex;
+    justify-content: left;
+    flex-wrap: left;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-color: var(--secondary-color);
+    border: var(--tertiary-color) solid 3px;
+}
+#profile-img {
+    width: 20%;
+    margin: 3.5%;
+    border-radius: 15%;
+}
+#about-me article {
+    width: 55%;
+    text-align: left;
+    margin: 3.5%;
+    line-height: 1.2;
+    background-color: var(--secondary-color);
+}
+#about-me h2 {
+    background-color: var(--secondary-color);
+    font-style: italic;
+    color: var(--tertiary-color);
+    margin-top: 40px;
+}
+#about-me p {
+    background-color: var(--secondary-color);
+    font-size: 20px;
+    color: var(--primary-color);
+}
+/* About Me End */
